@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="44" viewBox="0 0 900 44">
+<defs><filter id="g" x="-5%" y="-100%" width="110%" height="300%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<path d="M0 22 H250 l10 0 l8 -14 l12 30 l8 -16 l6 0 H600 l10 0 l8 -14 l12 30 l8 -16 l6 0 H900" fill="none" stroke="#30363d" stroke-width="2" pathLength="1000"/>
+<path d="M0 22 H250 l10 0 l8 -14 l12 30 l8 -16 l6 0 H600 l10 0 l8 -14 l12 30 l8 -16 l6 0 H900" fill="none" stroke="#ff1a3c" stroke-width="2.5" stroke-linecap="round" pathLength="1000" stroke-dasharray="130 870" filter="url(#g)">
+  <animate attributeName="stroke-dashoffset" from="130" to="-1000" dur="3.2s" repeatCount="indefinite"/>
+</path>
+<circle cx="6" cy="22" r="3" fill="#ff1a3c"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="894" cy="22" r="3" fill="#ff1a3c"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/></circle>
+</svg>
